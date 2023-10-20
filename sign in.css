@@ -1,0 +1,138 @@
+body {
+  text-align: center;
+  height: 100px;
+  /* width: 400px; */
+  /* height: 300px; */
+  border: 2px;
+  margin: auto;
+  padding-top: 150px;
+  background-color: rgb(226, 43, 128);
+  color: rgb(161, 37, 37);
+}
+
+#derf {
+  /* background-image: url(./img/Hydrangeas.jpg); */
+  border: none;
+  border-radius: 2px;
+}
+
+#mail {
+  /* background-image: url(./img/Chrysanthemum.jpg); */
+  border: none;
+  border-radius: 2px;
+}
+
+#word {
+  /* background-image: url(./img/Hydrangeas.jpg); */
+  border: none;
+  border-radius: 2px;
+}
+
+#occ {
+  
+  border: none;
+  border-radius: 2px;
+  box-shadow: 10px;
+}
+
+#comfirm {
+
+  border: none;
+  border-radius: 2px;
+}
+
+.alldiv {
+  display: flex;
+  justify-content: center;
+
+}
+
+span {
+  color: blanchedalmond;
+}
+
+i {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  /* text-align: center;  */
+  justify-items: center;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+i:hover {
+  color: gray;
+  
+}
+
+button {
+  
+  color: aqua;
+
+}
+
+button:hover {
+  color: khaki;
+}
+
+input {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+button{
+width: 150px;
+height: 40px;
+text-transform: uppercase;
+font-size: 30px;
+}
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.nav a{
+  color: #0c22ba;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+font-weight: 400;
+}
+.nav a:hover{
+  color: black;
+}
+  
+@media screen and ( max-width: 199px){
+
+body{
+  text-align: center;
+  height: 100px;
+  /* width: 400px; */
+  /* height: 300px; */
+  border: 2px;
+  margin: auto;
+  padding-top: 100px;
+  background-color: rgb(226, 43, 128);
+  color: rgb(161, 37, 37);
+}
+
+.footer{
+  background-color:black;
+  color: white;
+width: 90px;
+}
+
+label{
+  width: 80px;
+  display: block;
+  justify-content: center;
+}
+
+input{
+  width: 130px;
+  display: block;
+  justify-content: center;
+}
+
+}

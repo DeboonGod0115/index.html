@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign in.css">
+    <script src="./signin.js"></script>
+    
+</head>
+<body>
+<div class="divcontainer">
+    <h1>247<span class="News">News</span></h1>
+<small class="sm">Reliable news and update</small>
+<ul class="nav">
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="service.html">service</a>
+    <a href="contact.html">contact</a>
+    <a href="sign in.html">sign in</a>
+</ul>
+<marquee behavior="" direction="">welcome to 247News</marquee>
+        <h1>247 NEWS</h1>
+        <h2>REGISTRATION <span>FORM</span></h2>
+
+
+        <div>
+
+            <form action="./index.html" target="_blank" method="get" required> 
+             <div>
+                    <div id="errormsg"></div>
+                    <label for="derf">NAME</label>
+                    <input type="text" name="Name" id="derf" required>
+                </div>
+
+                <div>
+                    <div id="resultmsg"></div>
+                    <label for="mail">EMAIL</label>
+                    <input onkeyup="validateEmail()" type="email" name="email" id="mail" required>
+                </div>
+
+                <div>
+                    <label for="word">PASSWORD</label>
+                    <input type="password" name="password" id="word" required>
+                </div>
+
+                <div>
+                    <label for="word">COMFIRM PASSWORD</label>
+                    <input onkeyup="comfirmfunction()" type="password" name="comfirm" id="comfirm"  required>
+                </div>
+
+                <div>
+                    <label for="occ">OCCUPATION</label>
+                    <input type="text" name="Occupation" id="occ"  required>
+                </div>
+
+                <div>
+                    <label for="status">STATUS</label>
+                    <select name="status" id="status">
+                        <option value="Married" id="marr">Married</option>
+                        <option value="Single" id="sing">Single</option>
+                        <option value="Engage" id="enga">Engage</option>
+                        <option value="Divorce" id="divo">Divorce</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="gender">FEMALE</label>
+                    <input type="radio" name="gender" id="fema" value="female"  required>
+                    <label for="gender">MALE</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <button type="submit" onclick="clicksubmit()">submit</button> 
+        
+                
+                </form>
+        </div>
+
+        <h4>For more information, contact us via on social media</h4>
+        <div class="alldiv">
+            <a href="http://"><i class="fab fa-facebook-f" style="color: burlywood; background-color: blue;"></i></a>
+            <a href="http://"><i class="fab fa-twitter"
+                    style="color: rgb(48, 187, 168); background-color: blueviolet;"></i></a>
+            <a href="http://"><i class="fab fa-instagram" style="color: indigo; background-color: lightcoral;"></i></a>
+        </div>
+
+
+
+
+</div>
+<footer class="footer">copyright 2023@247News &copy; All right reserved</footer>
+</body>
+</html>
